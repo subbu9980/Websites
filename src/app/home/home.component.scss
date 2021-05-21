@@ -1,0 +1,106 @@
+.wrapper {
+    background-color: #f9faf9;
+}
+
+.header {
+    background-color: white;
+    padding: 0 10px;
+    border-bottom: solid 2px #05ded9;
+    .navbar {
+        img {
+            width: 70px;
+        }
+        .navbar-nav {
+            img {
+                width: 50px;
+            }
+        }
+    }
+}
+.community {
+    background: linear-gradient(to right, #2af6fd, #0887db);
+    padding-top: 10px;
+    padding: 20px;
+    h1 {
+        // font-family: $headfont;
+        font-size: 2.5em;
+        color: white;
+    }
+    input {
+        width: 300px;
+    }
+}
+.vote-heading {
+    background-color: white;
+    // border: solid 1px lightgrey;
+    padding: 15px;
+    text-align: center;
+    span {
+        width: 10%;
+        display: block;
+        margin: 0.2rem auto 0.5rem;
+        height: 2px;
+        background: #ebebeb;
+        border-radius: 10px;
+    }
+    .vote-title {
+        // @include title;
+        padding: 5px;
+        text-align: center;
+        font-size: 2rem;
+        margin-bottom: 5px;
+    }
+}
+.card {
+    .card-body {
+        padding: 0px;
+        .material-icons {
+            font-size: 40px;
+        }
+    }
+    .card-content {
+        p, h5 {
+            margin: 0px;
+        }
+    }
+}
+.vote-cards {
+    background-color: white;
+}
+.progress {
+    height: 8px;
+    .progress-bar {
+        background: linear-gradient(90deg ,#2ae4fd,#0887db);
+    }
+}
+.my-button {
+    border-radius: 14px;
+    background: linear-gradient(90deg ,#2ae4fd,#0887db);
+    border: none;
+    padding: 5px 15px;
+    color: white;
+}
+img {
+   max-width: 100%; 
+}
+.form-group {
+    // font-size: 14px;
+    width: 50%;
+    margin: 0 auto;
+    textarea {
+        min-height: 150px;
+        // font-size: 14px;
+    }
+   .file {
+     margin-right: 20px;
+   }
+}
+input, textarea {
+    border-radius: 10px;
+}
+.footer {
+    text-align: center;
+    .nav {
+        margin-left: 30%;
+    }
+}
